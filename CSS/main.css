@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffcd3c;
+}
+
+nav  {
+    border-bottom: 5px solid #ff9234;
+    background-color: #fff;   
+
+}
+
+h1 {
+    font-family: 'Shadows Into Light';
+}
+
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(/CSS/Img/robert-mathews-168904.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.showcase img {
+    width: 100%;
+    height: auto;
+}
+
+.card-head {
+    background-color: #d92027;
+
+}
+
+.card-text {
+    padding: 1.5rem;
+}
+
+footer {
+    background-color: #35d0ba;
+    margin-top: 50px;
+}
