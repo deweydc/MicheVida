@@ -1,26 +1,46 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffcd3c;
+    background-color: #fff;
 }
 
 nav  {
     border-bottom: 5px solid #ff9234;
     background-color: #fff;   
-
 }
 
 h1 {
     font-family: 'Shadows Into Light';
 }
 
-
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(/CSS/Img/robert-mathews-168904.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/CSS/Img/miche-mix-ZeldXtOOOWg-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 75vh;
+}
+
+.jumbotron p {
+    font-size: 1.5em;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.jumbotron button {
+    margin-left: 12px;
+    padding: 10px 30px;
+    background-color: #d92027;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.jumbotron button:hover {
+    background-color: #ff9234;
+}
+
+.showcase {
+    padding: 10px;
 }
 
 .showcase img {
@@ -30,14 +50,73 @@ h1 {
 
 .card-head {
     background-color: #d92027;
+}
 
+.card-head h3 {
+    padding: 10px;
+}
+
+.card {
+    border: none;
+    margin-top: 30px;  
 }
 
 .card-text {
     padding: 1.5rem;
+    background: #eeeaea;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.showcase .card-img-top {
+    width: 50%;
+    align-self: center;
+}
+
+.showcase .card:hover {
+    background-color: green;
+    opacity: 100%;  
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+
+.showcase p {
+    text-align: center;
+    padding: 2em;
+    font-size: 1em; 
+}
+
+.showcase a {
+    color: black;
+}
+
+.showcase a:hover {
+    text-decoration: none;
+    color: #ff9234;
+}
+
+.customer-love h3 {
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+hr {
+    border-top: solid #ff9234;
+    margin: auto;
+    width: 56%;
+    margin-bottom: 50px; 
 }
 
 footer {
     background-color: #35d0ba;
     margin-top: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+    .card h3 {
+        font-size: 1.3em;
+    }
 }
