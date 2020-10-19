@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -11,20 +13,28 @@ nav  {
 
 h1 {
     font-family: 'Shadows Into Light';
+    color: black;
 }
 
 .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/CSS/Img/miche-mix-ZeldXtOOOWg-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     height: 75vh;
+    position: relative;
+    bottom: 35px;
+    
 }
 
-.jumbotron p {
-    font-size: 1.5em;
+.jumbo-body {
+    position: relative;
+    top: 50px;
+}
+
+.jumbo-text {
+    font-size: 1.75em;
     color: #fff;
-    padding-top: 100px;
 }
 
 .jumbotron button {
@@ -37,6 +47,30 @@ h1 {
 
 .jumbotron button:hover {
     background-color: #ff9234;
+    transition: ease-in-out 0.4s;
+    
+}
+
+.navbar li a {
+    font-family: 'Shadows Into Light';
+    font-size: 1.75em;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: black;
+    margin: 0;
+    border-bottom: black solid 2px;
+    transition: ease-in;
+    
+}
+
+.navbar-brand {
+    color: #000000;
+}
+
+.navbar-brand:hover {
+    color: #D92027;
 }
 
 .showcase {
@@ -54,11 +88,23 @@ h1 {
 
 .card-head h3 {
     padding: 10px;
+
 }
 
 .card {
     border: none;
-    margin-top: 30px;  
+    box-shadow: -5px 5px 15px #7e7e7e;
+}
+
+.card:hover {
+    box-shadow: -15px 15px 30px #7e7e7e;
+    transition: ease-in-out 0.3s; 
+}
+
+
+
+.card-img-top img {
+    margin-bottom: 20px;
 }
 
 .card-text {
@@ -74,7 +120,7 @@ h1 {
 }
 
 .showcase .card:hover {
-    background-color: green;
+    /* background-color: green; */
     opacity: 100%;  
 }
 
@@ -84,7 +130,7 @@ h1 {
 .showcase p {
     text-align: center;
     padding: 2em;
-    font-size: 1em; 
+    font-size: 1.3em; 
 }
 
 .showcase a {
@@ -96,23 +142,80 @@ h1 {
     color: #ff9234;
 }
 
+.customer-love {
+    height: 10vh;
+
+}
+
+.customer-love-bg {
+    padding: 300px 0;
+    z-index: -100;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 .customer-love h3 {
     text-align: center;
     font-size: 5em;
     font-weight: 900;
     font-family: 'Nothing You Could Do', cursive;
+    text-shadow: #ff9234 4px 4px;
 }
 
 hr {
     border-top: solid #ff9234;
     margin: auto;
-    width: 56%;
+    width: 40%;
     margin-bottom: 50px; 
 }
 
+.carousel {
+    box-shadow: -15px 15px 30px #7e7e7e;
+    margin: 600px auto 0;
+}
+
+.shadow-bottom {
+    box-shadow: 0 15px 100px #7e7e7e;
+}
+
+.empty{
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 300px;
+    padding-bottom: 200px;
+}
+
+
+
+.parallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(/CSS/Img/miche-mix-r7kWS1X24GY-unsplash.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.img-caption {
+    padding: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 200px 30px auto 0;
+    font-size: 1.5em;
+}
+
+
 footer {
-    background-color: #35d0ba;
+    background-image: linear-gradient( #35d0ba, #fff);
     margin-top: 50px;
+    padding: 20px 0 0;
+    margin-bottom: 0;
+    
+}
+
+.links a{
+    color: #000000;
 }
 
 @media only screen and (max-width: 992px) {
