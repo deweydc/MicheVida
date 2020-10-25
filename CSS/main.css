@@ -1,9 +1,13 @@
+/* html {
+    background-color: rgba(0, 0, 0, 0.01);
+    z-index: ;
 
+} */
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    
 }
 
 nav  {
@@ -55,14 +59,16 @@ h1 {
     font-family: 'Shadows Into Light';
     font-size: 1.75em;
     color: black;
+    padding: 0;
+    width: 75px;
+
 }
 
 .navbar li a:hover {
     color: black;
     margin: 0;
-    border-bottom: black solid 2px;
-    transition: ease-in;
-    
+    border-bottom: #ff9234 solid 2px;
+    transition: ease-in-out;
 }
 
 .navbar-brand {
@@ -75,6 +81,8 @@ h1 {
 
 .showcase {
     padding: 10px;
+    z-index: 10;
+
 }
 
 .showcase img {
@@ -149,7 +157,7 @@ h1 {
 
 .customer-love-bg {
     padding: 300px 0;
-    z-index: -100;
+    z-index: -10;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -163,18 +171,20 @@ h1 {
     font-weight: 900;
     font-family: 'Nothing You Could Do', cursive;
     text-shadow: #ff9234 4px 4px;
+    
 }
 
-hr {
+/* hr {
     border-top: solid #ff9234;
     margin: auto;
     width: 40%;
     margin-bottom: 50px; 
-}
+} */
 
 .carousel {
     box-shadow: -15px 15px 30px #7e7e7e;
     margin: 600px auto 0;
+
 }
 
 .shadow-bottom {
@@ -182,36 +192,77 @@ hr {
 }
 
 .empty{
-    background-color: rgba(0, 0, 0, 0.05);
     height: 300px;
     padding-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 
 
 .parallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(/CSS/Img/miche-mix-r7kWS1X24GY-unsplash.jpg);
-    height: 80vh;
+    /* linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), */
+    background-image:  url(/CSS/Img/miche-mix-r7kWS1X24GY-unsplash.jpg);
+    height: 50vh;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
 }
 
 .img-caption {
-    padding: 30px;
+    padding: 20px;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
-    margin: 200px 30px auto 0;
+    margin-top: 35%;
     font-size: 1.5em;
+    margin-right: 20px;
+
 }
+
+.btn-orange{
+    background-color: #ff9234;
+    color: white;
+    padding: 10px;
+
+}
+
+.modal-header{
+    background-color: #d92027;
+    color: white;
+    font-family: 'Shadows Into Light';
+
+}
+
+.contact-hr {
+    max-width: 40px;
+    background-color: #ff9234;
+    height: 1px;
+}
+
+.yellow-bg {
+    background-color: #fcf2c7;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sub-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 100;
+}
+
 
 
 footer {
     background-image: linear-gradient( #35d0ba, #fff);
-    margin-top: 50px;
     padding: 20px 0 0;
     margin-bottom: 0;
-    
 }
 
 .links a{
@@ -222,4 +273,5 @@ footer {
     .card h3 {
         font-size: 1.3em;
     }
+
 }
