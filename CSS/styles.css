@@ -216,6 +216,31 @@ footer {
 .links a {
   color: #000000; }
 
+.modal-img {
+  width: 300px;
+  margin-left: 50px; }
+
+.stackem {
+  width: 100%;
+  padding-left: 0; }
+
+.qty-selector {
+  padding: 10px;
+  font-size: 1.2em; }
+
+.btn-modal {
+  background-color: #ff9234;
+  color: white;
+  margin-top: 20px; }
+
+.close span {
+  font-size: 1.5em;
+  color: white; }
+
+.modal h5 {
+  font-size: 2em;
+  padding-left: 20px; }
+
 @media only screen and (max-width: 992px) {
   .card h3 {
     font-size: 1.3em; }
