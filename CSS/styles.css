@@ -1,0 +1,223 @@
+/* html {
+    background-color: rgba(0, 0, 0, 0.01);
+    z-index: ;
+
+} */
+body {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  border-bottom: 5px solid #ff9234;
+  background-color: #fff; }
+
+h1 {
+  font-family: "Shadows Into Light";
+  color: black; }
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/CSS/Img/miche-mix-ZeldXtOOOWg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: 75vh;
+  position: relative;
+  bottom: 35px; }
+
+.jumbo-body {
+  position: relative;
+  top: 50px; }
+
+.jumbo-text {
+  font-size: 1.75em;
+  color: #fff; }
+
+.jumbotron button {
+  margin-left: 12px;
+  padding: 10px 30px;
+  background-color: #d92027;
+  color: #fff;
+  font-size: 1.3em; }
+
+.jumbotron button:hover {
+  background-color: #ff9234;
+  transition: ease-in-out 0.4s; }
+
+.navbar li a {
+  font-family: "Shadows Into Light";
+  font-size: 1.75em;
+  color: black;
+  padding: 0;
+  width: 75px; }
+
+.navbar li a:hover {
+  color: black;
+  margin: 0;
+  border-bottom: #ff9234 solid 2px;
+  transition: ease-in-out; }
+
+.navbar-brand {
+  color: #000000; }
+
+.navbar-brand:hover {
+  color: #d92027; }
+
+.showcase {
+  padding: 10px;
+  z-index: 10; }
+
+.showcase img {
+  width: 100%;
+  height: auto; }
+
+.card-head {
+  background-color: #d92027; }
+
+.card-head h3 {
+  padding: 10px; }
+
+.card {
+  border: none;
+  box-shadow: -5px 5px 15px #7e7e7e; }
+
+.card:hover {
+  box-shadow: -15px 15px 30px #7e7e7e;
+  transition: ease-in-out 0.3s; }
+
+.card-img-top img {
+  margin-bottom: 20px; }
+
+.card-text {
+  padding: 1.5rem;
+  background: #eeeaea;
+  padding: 10px;
+  font-size: 1.2em; }
+
+.showcase .card-img-top {
+  width: 50%;
+  align-self: center; }
+
+.showcase .card:hover {
+  /* background-color: green; */
+  opacity: 100%; }
+
+.grow {
+  transition: all .2s ease-in-out; }
+
+.grow:hover {
+  transform: scale(1.05); }
+
+.showcase p {
+  text-align: center;
+  padding: 2em;
+  font-size: 1.3em; }
+
+.showcase a {
+  color: black; }
+
+.showcase a:hover {
+  text-decoration: none;
+  color: #ff9234; }
+
+.customer-love {
+  height: 10vh; }
+
+.customer-love-bg {
+  padding: 300px 0;
+  z-index: -10;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05); }
+
+.customer-love h3 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 900;
+  font-family: 'Nothing You Could Do', cursive;
+  text-shadow: #ff9234 4px 4px; }
+
+/* hr {
+    border-top: solid $color-orange;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 50px; 
+} */
+.carousel {
+  box-shadow: -15px 15px 30px #7e7e7e;
+  margin: 600px 0 0; }
+
+.shadow-bottom {
+  box-shadow: 0 15px 100px #7e7e7e; }
+
+.empty {
+  height: 300px;
+  padding-bottom: 200px;
+  background-color: rgba(0, 0, 0, 0.05); }
+
+.parallax {
+  /* linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), */
+  background-image: url(/CSS/Img/miche-mix-r7kWS1X24GY-unsplash.jpg);
+  height: 70vh;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; }
+
+.img-caption {
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 35%;
+  font-size: 1.5em;
+  margin-right: 20px; }
+
+.btn-orange {
+  background-color: #ff9234;
+  color: white;
+  padding: 10px; }
+
+.modal-header {
+  background-color: #d92027;
+  color: white;
+  font-family: "Shadows Into Light"; }
+
+.contact-hr {
+  max-width: 40px;
+  background-color: #ff9234;
+  height: 1px; }
+
+.yellow-bg {
+  background-color: #fcf2c7;
+  padding: 20px;
+  margin: 100px; }
+
+.sub-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 50px; }
+
+.news-hr {
+  max-width: 50px;
+  height: 2px;
+  background-color: #000000; }
+
+#carouselButton {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 100; }
+
+footer {
+  background-image: linear-gradient(#35d0ba, #fff);
+  padding: 20px 0 0;
+  margin-bottom: 0; }
+
+.links a {
+  color: #000000; }
+
+@media only screen and (max-width: 992px) {
+  .card h3 {
+    font-size: 1.3em; }
+  .yellow-bg {
+    margin: 40px; } }
