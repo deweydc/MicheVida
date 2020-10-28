@@ -57,7 +57,9 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h3 class="text-center modal-title">Send Us An Email</h3>
-                        <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">X</span>
+                        </button>
                     </div>
                     <div class="modal-body">
                         <div class="container-fluid">
@@ -66,17 +68,17 @@
                                     <div class="row justify-content-center">
                                         <div class="col-md-12 col-lg-5">
                                             <label for="name">Name</label><br>
-                                            <input class="form-control" type="text">
+                                            <input class="form-control" placeholder="Name" type="text">
                                         </div>
                                         <div class="col-md-12 col-lg-5">
                                             <label for="email">Email</label><br>
-                                            <input class="form-control" type="email">
+                                            <input class="form-control" placeholder="Email" type="email">
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
                                         <div class="col-xs-6 col-md-12 col-lg-10">
                                             <label for="phoneNumber">Phone Number</label><br>
-                                            <input class="form-control" type="tel">
+                                            <input class="form-control" placeholder="(xxx) xxx-xxxx" type="tel">
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
@@ -100,7 +102,7 @@
         </div>
 
         <header class="jumbotron jumbotron-fluid">
-            <div class="container m-sm-5 jumbo-body">
+            <div class="container container-fluid m-sm-5 jumbo-body">
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 jumbo-text">
                         <p>
@@ -116,9 +118,9 @@
         </header>
 
 
-        <div id="shop" class="container showcase">
+        <div id="shop" class="container container-fluid showcase">
             <div class="row">
-                <div class="col-md-4 ">
+                <div class="col-md-4">
                     <div class="card grow mb-5" role="button" id="watermelonCardButton">
                         <div class="card-head text-center text-white p-2">
                             <h3>Watermelon</h3>
@@ -126,9 +128,10 @@
                         <div class="card-img-top">
                             <img src="/CSS/Img/Micheladas-El-Gordo-Watermelon-Rimming-Dip-Chamoy.jpg" alt="">
                         </div>
-                        <div class="card-text text-center">
-                            Micheladas El Gordo Watermelon Rimming Dip Chamoy <br> <span
-                                style="color: red;">10.99</span>
+                        <div class="text-center">
+                            <div class="card-text">
+                                Micheladas Watermelon Rimming Dip Chamoy <br> <span style="color: red;">10.99</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,8 +144,7 @@
                             <img src="/CSS/Img/Micheladas-El-Gordo-Spicy-Cucumber-Rimming-Dip-Chamoy.jpg" alt="">
                         </div>
                         <div class="card-text text-center">
-                            Micheladas El Gordo Watermelon Rimming Dip Chamoy <br> <span
-                                style="color: red;">10.99</span>
+                            Micheladas Spicy Cucumber Rimming Dip Chamoy <br> <span style="color: red;">10.99</span>
                         </div>
                     </div>
                 </div>
@@ -155,15 +157,16 @@
                             <img src="/CSS/Img/Micheladas-El-Gordo-Spicy-Mango-Rimming-Dip-Chamoy.jpg" alt="">
                         </div>
                         <div class="card-text text-center">
-                            Micheladas El Gordo Watermelon Rimming Dip Chamoy <br> <span
-                                style="color: red;">10.99</span>
+                            Micheladas Mango Rimming Dip Chamoy <br>
+                            <span style="color: red;">10.99</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <p><a href="#">View all ></a></p>
+            <p class="text-center"><a href="#">View all ></a></p>
         </div>
     </div>
+
 
 
     <!--** Modal   vvvv -->
@@ -174,9 +177,9 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Watemenlon</h5>
+                    <h5 class="modal-title">Micheladas Watermelon Rimming Dip</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">X</span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -188,7 +191,7 @@
                             </div>
                             <div class="col-md-4 ml-auto stackem">
                                 <div>
-                                    <h6><strong>Desription</strong></h6>
+                                    <h6><strong>Description</strong></h6>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis iusto
                                         beatae
@@ -196,6 +199,8 @@
                                         molestiae
                                         quasi magnam et maiores animi officia. Error?
                                     </p>
+                                    <span class="sale-price" style="color: red">10.99</span><span
+                                        class="regular-price"><strike>14.99</strike></span>
                                 </div>
                                 <div class="qty-selector">
                                     <label for="qty">Qty.</label>
@@ -223,9 +228,9 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Spicy Cucumber</h5>
+                    <h5 class="modal-title">Micheladas Spicy Cucumber Rimming Dip</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">X</span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -237,7 +242,7 @@
                             </div>
                             <div class="col-md-4 ml-auto stackem">
                                 <div>
-                                    <h6><strong>Desription</strong></h6>
+                                    <h6><strong>Description</strong></h6>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis iusto
                                         beatae
@@ -245,10 +250,12 @@
                                         molestiae
                                         quasi magnam et maiores animi officia. Error?
                                     </p>
+                                    <span class="sale-price" style="color: red">10.99</span><span
+                                        class="regular-price"><strike>14.99</strike></span>
                                 </div>
                                 <div class="qty-selector">
                                     <label for="qty">Qty.</label>
-                                    <select name="qty" id="watermelonQty">
+                                    <select name="qty" id="spicyCuQty">
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -272,9 +279,9 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Mango</h5>
+                    <h5 class="modal-title">Micheladas Mango Rimming Dip</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">X</span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -286,7 +293,7 @@
                             </div>
                             <div class="col-md-4 ml-auto stackem">
                                 <div>
-                                    <h6><strong>Desription</strong></h6>
+                                    <h6><strong>Description</strong></h6>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis iusto
                                         beatae
@@ -294,10 +301,12 @@
                                         molestiae
                                         quasi magnam et maiores animi officia. Error?
                                     </p>
+                                    <span class="sale-price" style="color: red">10.99</span><span
+                                        class="regular-price"><strike>14.99</strike></span>
                                 </div>
                                 <div class="qty-selector">
                                     <label for="qty">Qty.</label>
-                                    <select name="qty" id="watermelonQty">
+                                    <select name="qty" id="mangoQty">
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -370,18 +379,18 @@
         <div class="empty">
         </div>
 
-        <div class="parallax">
-
-            <div class="row justify-content-end align-items-center">
-                <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 col-xs-4">
-                    <div class="img-caption ">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laboriosam cumque nihil
-                            aliquid
-                            consequatur!</p>
+        <div class="parallax-container">
+            <div class="parallax">
+                <div class="row justify-content-end align-items-center">
+                    <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 col-xs-4">
+                        <div class="img-caption ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laboriosam cumque nihil
+                                aliquid
+                                consequatur!</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <section class="news-letter container-fluid">
@@ -443,6 +452,8 @@
                 </div>
             </div>
         </footer>
+
+
 
     </div>
 

@@ -90,8 +90,8 @@ h1 {
 .card-text {
   padding: 1.5rem;
   background: #eeeaea;
-  padding: 10px;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  height: 125px; }
 
 .showcase .card-img-top {
   width: 50%;
@@ -168,9 +168,8 @@ h1 {
   padding: 20px;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
-  margin-top: 35%;
-  font-size: 1.5em;
-  margin-right: 20px; }
+  margin: 50% 20px 50% 0;
+  font-size: 1.5em; }
 
 .btn-orange {
   background-color: #ff9234;
@@ -190,7 +189,7 @@ h1 {
 .yellow-bg {
   background-color: #fcf2c7;
   padding: 20px;
-  margin: 100px; }
+  margin: 50px 20px; }
 
 .sub-btn {
   background-color: black;
@@ -225,13 +224,13 @@ footer {
   padding-left: 0; }
 
 .qty-selector {
-  padding: 10px;
+  padding: 20px 0;
   font-size: 1.2em; }
 
 .btn-modal {
   background-color: #ff9234;
   color: white;
-  margin-top: 20px; }
+  margin-top: 5px; }
 
 .close span {
   font-size: 1.5em;
@@ -241,8 +240,46 @@ footer {
   font-size: 2em;
   padding-left: 20px; }
 
+.regular-price {
+  font-size: 1.3em;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.sale-price {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-right: 15px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.modal h4 {
+  color: #d92027; }
+
 @media only screen and (max-width: 992px) {
   .card h3 {
     font-size: 1.3em; }
   .yellow-bg {
-    margin: 40px; } }
+    margin: 20px auto; }
+  .jumbotron {
+    height: 50vh; }
+  .card-text {
+    height: 175px; }
+  .img-caption {
+    text-align: center;
+    margin: 30% auto; } }
+
+@media only screen and (max-width: 768px) {
+  .card-text {
+    height: 175px;
+    font-size: 1.3em; }
+  .card {
+    width: 75%;
+    margin: auto; }
+  .parallax {
+    height: 50vh; } }
+
+@media only screen and (max-width: 600px) {
+  .modal-img {
+    width: 100%;
+    margin: auto; }
+  .yellow-bg {
+    margin: 20px auto; } }
