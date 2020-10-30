@@ -254,6 +254,32 @@ footer {
 .modal h4 {
   color: #d92027; }
 
+.gray-bg h3 {
+  padding-top: 50px; }
+
+.about-content {
+  padding: 10px 200px 50px; }
+
+.hero-container img {
+  width: 100%;
+  height: auto;
+  margin: 30px auto; }
+
+.about-img img {
+  width: 500px;
+  height: 550px;
+  margin: 20px;
+  box-shadow: -10px 10px 15px #353535; }
+
+.about-mid {
+  background-color: #ececec;
+  margin: 0;
+  padding: 0; }
+
+.gray-bg {
+  background-color: rgba(236, 236, 236, 0.8);
+  margin-top: 30px; }
+
 @media only screen and (max-width: 992px) {
   .card h3 {
     font-size: 1.3em; }
@@ -265,7 +291,15 @@ footer {
     height: 175px; }
   .img-caption {
     text-align: center;
-    margin: 30% auto; } }
+    margin: 30% auto; }
+  .gray.bg h3 {
+    padding: 0;
+    margin: 0; }
+  .about-content {
+    padding: 10px 100px 50px; }
+  .about-content p {
+    margin-top: 0;
+    padding-top: 0; } }
 
 @media only screen and (max-width: 768px) {
   .card-text {
@@ -282,4 +316,6 @@ footer {
     width: 100%;
     margin: auto; }
   .yellow-bg {
-    margin: 20px auto; } }
+    margin: 20px auto; }
+  .about-content {
+    padding: 10px 100px 20px; } }
