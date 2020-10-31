@@ -20,7 +20,7 @@ $(function () {
         $("#contactUsModal").modal("show");
     });
 
-     // Watermelon Card Modal
+    // Watermelon Card Modal
     $("#watermelonCardButton").click(function () {
         $("#watermelonModal").modal("show");
     });
@@ -36,10 +36,14 @@ $(function () {
     });
 });
 
+// ? Animations
 
-const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
+const tl = gsap.timeline({ defaults: { ease: 'power1.out' } });
 
-tl.to('.jumbo-body', {x:"0%", duration: 2});
+tl.to('.jumbo-body', { x: "0%", duration: 2 });
+tl.fromTo('.nav-item-animation', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=.5");
+tl.fromTo('.navbar-brand-animation', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl.to('.from-right', { y: "0%", duration: 1 }, "-=2");
+tl.to('.from-left', { y: "0%", duration: 1 }, "-=2");
 
-tl.to('.from-right', {y:"0%", duration: 1}, "-=2");
-tl.to('.from-left', {y: "0%", duration: 1}, "-=2");
+

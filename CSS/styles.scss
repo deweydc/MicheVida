@@ -316,6 +316,21 @@ footer {
     background-color: $color-orange;
     color: white;
     margin-top: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.btn-modal:hover{
+    background-color: $color-red;
+    transform: scale(1.1);
+}
+
+.contact-us-button{
+    transition: all .2s ease-in-out;
+}
+
+.contact-us-button:hover{
+    background-color: $color-red;
+    transform: scale(1.1);
 }
 
 .close span{
@@ -481,4 +496,6 @@ footer {
 .jumbo-body{
     transform: translatex(150%);
 }
+
+
 
