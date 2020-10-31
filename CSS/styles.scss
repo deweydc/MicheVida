@@ -234,8 +234,6 @@ h1 {
     background-color: $color-black-transparent;
     margin: 50% 20px 50% 0;
     font-size: 1.5em;
-    
-
 }
 
 .btn-orange{
@@ -282,7 +280,6 @@ h1 {
     bottom: 10px;
     z-index: 100;
 }
-
 
 
 footer {
@@ -362,22 +359,31 @@ footer {
 .hero-container img{
     width: 100%;
     height: auto;
-    margin: 30px auto;
-    
-    
+    margin: 30px auto 0;
 }
+
+// .emoji{
+//     position:;
+//     margin: 10px auto;
+// }
 
 .about-img img{
     width: 500px;
     height: 550px;
-    margin: 20px;
-    box-shadow: -10px 10px 15px #353535;
+    margin: 120px 20px;
+    // box-shadow: -10px 10px 15px #353535;
+    
 }
 
 .about-mid{
-    background-color: rgb(236, 236, 236);
+    // background-color: rgb(236, 236, 236);
     margin: 0;
     padding: 0;
+    background-image: url(./Img/corkboard3.jpg);
+    background-size: cover;
+    width: 100%;
+    box-shadow: -20px 20px 25px #727272;
+    border-radius: 20px;
 }
 
 .gray-bg{
@@ -388,8 +394,9 @@ footer {
 
 
 
-
 //* Media 
+
+
 
 @media only screen and (max-width: 992px) {
     .card h3 {
@@ -422,9 +429,7 @@ footer {
             margin-top: 0;
             padding-top: 0;
         }
-       
     }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -438,11 +443,7 @@ footer {
     }
     .parallax {
         height: 50vh;
-
-        
     }
-
-    
 }
 
 @media only screen and (max-width: 600px){
@@ -458,4 +459,26 @@ footer {
     .about-content{
         padding: 10px 100px 20px;
     }
+
+    .about-img img{
+        width: 80%;
+        margin: 30px 0 30px 50px;
+        padding: 40px auto;
+        // box-shadow: -10px 10px 15px #353535;
+    }
 }
+
+// ? Animations 
+
+.from-left{
+    transform: translateY(100%);
+}
+
+.from-right{
+    transform: translateY(120%);
+}
+
+.jumbo-body{
+    transform: translatex(150%);
+}
+

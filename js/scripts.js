@@ -36,3 +36,10 @@ $(function () {
     });
 });
 
+
+const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
+
+tl.to('.jumbo-body', {x:"0%", duration: 2});
+
+tl.to('.from-right', {y:"0%", duration: 1}, "-=2");
+tl.to('.from-left', {y: "0%", duration: 1}, "-=2");
